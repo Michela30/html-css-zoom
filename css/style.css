@@ -11,11 +11,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .container{
-    margin: 0 auto;
-    max-width: 1200px;
-} */
-
 
 
 
@@ -25,7 +20,7 @@ MAIN
 main{
     background-color: black;
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 60px);
 }
 .icon-top-container{
     position: relative;
@@ -101,11 +96,51 @@ FOOTER
 footer{
     background-color: #222222;
     width: 100%;
-    height: 70px;
+    height: 60px;
 }
 
 
+.left-button >div,span{
+    display: inline-block;
+    padding-left: 5px;
+}
 
+span > a{
+    color: white;
+    font-size: 1.5em;
+}
+
+span > p{
+    color: white;
+    font-size: small;
+}
+
+.chevron {
+    color: white;
+    font-size: 0.5em;
+    vertical-align: 15px;
+}
+
+.button, .p{
+    text-align: center;
+}
+
+
+.center-button > div,span{
+    display: inline-block;
+    padding-right: 5px;
+}
+
+#share-screen{
+    color: #4BC800;
+}
+
+.right-button{
+    color: red;
+    font-size: small;
+    background-color: #4A4A4A;
+    padding: 20px;
+}
 
 
 
@@ -116,20 +151,20 @@ footer{
 DEBUG
 */
 
-/* .debug main{
+.debug main{
     background-color: darkorchid;
     width: 100%;
     height: calc(100vh - 70px);
 } */
 
-/* .debug footer{
+ .debug footer{
     background-color: darksalmon;
     width: 100%;
     height: 70px;
-} */
+} 
 
-/* .debug .people-card{
+ .debug .people-card{
     background-color: aliceblue;
     border: 2px dashed black;
     height: 90px;
-} */
+}
