@@ -15,3 +15,78 @@
     margin: 0 auto;
     max-width: 1200px;
 }
+
+
+
+
+/* 
+MAIN
+*/
+
+.icon-top-container{
+    position: relative;
+}
+
+.icon-top{
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.my-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.people-card{
+    width: calc(100% / 7);
+}
+
+
+
+
+
+/* 
+FOOTER
+*/
+
+.icon-bottom-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+DEBUG
+*/
+
+.debug main{
+    background-color: darkorchid;
+    width: 100%;
+    height: calc(100vh - 70px);
+}
+
+.debug footer{
+    background-color: darksalmon;
+    width: 100%;
+    height: 100px;
+}
+
+.debug .people-card{
+    background-color: aliceblue;
+    border: 2px dashed black;
+    height: 70px;
+}
