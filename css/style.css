@@ -11,10 +11,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
+/* .container{
     margin: 0 auto;
     max-width: 1200px;
-}
+} */
 
 
 
@@ -22,16 +22,41 @@
 /* 
 MAIN
 */
-
+main{
+    background-color: black;
+    width: 100%;
+    height: calc(100vh - 70px);
+}
 .icon-top-container{
     position: relative;
 }
 
 .icon-top{
-    margin-top: 20px;
+    margin-top: 10px;
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.icon-top > .first, .second{
+    display: inline-block;
+}
+
+.icon{
+    background-color: #4A4A4A;
+    color: white;
+    padding: 5px;
+    font-size: small;
+    border-radius: 5px;
+}
+
+.zoom-icon{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(80, 80, 80, 0.6);
+    color: white;
+    padding: 5px;
+    font-size: small;
 }
 
 .my-row{
@@ -39,10 +64,24 @@ MAIN
     display: flex;
     flex-wrap: wrap;
     padding-top: 50px;
+    padding-left: 50px;
+}
+
+.card-column{
+    width: calc((100% / 7) - 20px);
+    margin: 5px 5px;
+}
+.card-column .people-card{
+    background-image: url(https://picsum.photos/200);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90px;
 }
 
 .people-card{
-    width: calc(100% / 7);
+    position: relative;
 }
 
 
@@ -59,7 +98,11 @@ FOOTER
     justify-content: space-between;
 }
 
-
+footer{
+    background-color: #222222;
+    width: 100%;
+    height: 70px;
+}
 
 
 
@@ -73,20 +116,20 @@ FOOTER
 DEBUG
 */
 
-.debug main{
+/* .debug main{
     background-color: darkorchid;
     width: 100%;
     height: calc(100vh - 70px);
-}
+} */
 
-.debug footer{
+/* .debug footer{
     background-color: darksalmon;
     width: 100%;
-    height: 100px;
-}
+    height: 70px;
+} */
 
-.debug .people-card{
+/* .debug .people-card{
     background-color: aliceblue;
     border: 2px dashed black;
-    height: 70px;
-}
+    height: 90px;
+} */
